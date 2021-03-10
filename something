@@ -1,0 +1,416 @@
+    align-items: center;
+
+    a:active
+    
+<footer class="footer-home-grid">
+                    <p class="footer-text" style="color: white;">We at WebDev develop immersive experiences <br>to engulf the user, the with the animated 
+                        motions<br>seductively look closer. Pellentesque habitant morbi tristique senectus<br>et netus et malesuada fames ac turpis egestas. </p>
+                    <form class="forms">
+                        <label class="email" for="email">Email</label><br>
+                        <input type="text" id="emails" name="emails"><br>
+                        <input type="text" id="box" name="box"><br>
+                        <input type="submit" id="Submit" value="Submit">
+                    </form>    
+                    <div class="social-menu">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="phone">
+                        <p class="phone-number" style="color: white;">123-456-789</p>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-phone-alt"></i></a></li>
+                        </ul>
+                    </div>
+            </footer> 
+
+
+
+
+
+
+
+.container3{
+    height: 100px;
+    width:100px;
+    margin-bottom: 10vh;
+    position: absolute;
+    margin: 20px;
+    width: auto;
+
+
+}
+
+.footer-home-grid{
+    background-color: black;
+    position:relative;
+    height:40vh;
+    bottom:15px;
+    width:85vw;
+    right:-220px;
+    margin-top:-5px;
+    clear: both;
+    font-family: 'Raleway',sans-serif;
+}
+
+.footer-text{
+    position: relative;
+    top:20%;
+    left:1%;
+    margin:0;
+    padding:0;
+
+}
+
+.footer-main,
+.social-list{
+    grid-column: 2 / -2;
+}
+.social-menu ul {
+    position: absolute;
+    top:80%;
+    left:10%;
+    padding:0%;
+    margin:0;
+    transform: translate(-50%,-50%); 
+    display: flex;
+
+}
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fa{
+    font-size: 20px;
+    line-height: 40px;
+    color:black;
+    display: inline;
+
+
+}
+.social-menu ul li a{
+    position: relative;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#emails{
+    position: relative;
+    left:70%;
+    top: -20px;
+    line-height: 10px;
+    border-radius: 12%;
+
+
+}
+.email{
+    line-height: 10px;
+    color:white;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    position: relative;
+    left:70%;
+    top:-33px;
+    width: 110%;
+}
+
+#box{
+    position: relative;
+    width:160px;
+    height:150px;
+    left:70%;
+    top:-15px;
+    box-sizing: border-box;
+    border-radius: 3%;
+
+}
+#Submit{
+    position: relative;
+    left:70%;
+    top:-10px;
+    background-color:black ;
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    border-radius: 3%;
+
+}
+
+
+#Submit a:active{
+    color: grey;
+}
+
+
+.phone ul {
+    position: absolute;
+    top:60%;
+    left:2%;
+    padding:0%;
+    margin:0;
+    transform: translate(-50%,-50%); 
+    display: flex;
+
+}
+.phone ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.phone ul li .fa{
+    font-size: 20px;
+    line-height: 40px;
+    color:black;
+    display: inline;
+
+
+}
+.phone ul li a{
+    position: relative;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.phone p{
+    position: absolute;
+    top:56%;
+    left:5%;
+}
+
+    .phone ul {
+        position: absolute;
+        top:60%;
+        left:2%;
+        padding:0%;
+        margin:0;
+        transform: translate(-50%,-50%); 
+        display: flex;
+    
+    }
+    .phone ul li{
+        list-style: none;
+        margin: 0 15px;
+    }
+    
+    .phone ul li .fa{
+        font-size: 10px;
+        line-height: 40px;
+        color:black;
+        display: inline;
+    
+    
+    }
+    .phone ul li a{
+        position: relative;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .phone p{
+        position: absolute;
+        top:56%;
+        left:5%;
+    }
+    
+    .container3{
+        height: 100px;
+        width:100px;
+        margin-bottom: 10vh;
+        position: absolute;
+        margin: 20px;
+        width: auto;
+    
+    
+    }
+    
+    .social-menu ul {
+        position: absolute;
+        top:80%;
+        left:10%;
+        padding:0%;
+        margin:0;
+        transform: translate(-50%,-50%); 
+        display: flex;
+    
+    }
+    .social-menu ul li{
+        list-style: none;
+        margin: 0 15px;
+    }
+    
+    .social-menu ul li .fa{
+        font-size: 20px;
+        line-height: 40px;
+        color:black;
+        display: inline;
+    
+    
+    }
+    .social-menu ul li a{
+        position: relative;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #fff;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    #emails{
+        position: relative;
+        left:70%;
+        top: -20px;
+        line-height: 10px;
+        border-radius: 12%;
+    
+    
+    }
+    .email{
+        line-height: 10px;
+        color:white;
+        font-family: 'Raleway',sans-serif;
+        font-size: 20px;
+        position: relative;
+        left:70%;
+        top:-33px;
+        width: 110%;
+    }
+    
+    #box{
+        position: relative;
+        width:160px;
+        height:150px;
+        left:70%;
+        top:-15px;
+        box-sizing: border-box;
+        border-radius: 3%;
+    
+    }
+    #Submit{
+        position: relative;
+        left:70%;
+        top:-10px;
+        background-color:black ;
+        color: white;
+        font-family: 'Raleway',sans-serif;
+        border-radius: 3%;
+    
+    }
+    
+    
+    #Submit a:active{
+        color: grey;
+    }
+.logo{
+    position:relative; top: 0px; right: -625px; z-index: 1; 
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+            <div class="container2">
+                <img class="logo" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/483/4757629483_002ecd36-b334-4b4d-80fe-c5a9ad1dbf11.png?cb=1614538893">
+            </div>
+
+.navbar-links{
+    display: inline-block;
+}
+.navbar ul li {
+    display: inline;
+    margin-left:80px;
+
+}
+  .overlay {
+    position:absolute;
+    background:rgba(0,0,0,0.5);
+    color:white;
+    font-size:15px;
+    text-align:center;
+    width: 100%;
+    height: 100%; 
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+
+  }
+  
+.overlay h1 {
+    position:relative;
+    font-size:65px;
+    font-family: 'Raleway',sans-serif;
+    right: -10px;
+  }
+.overlay p{
+    position:relative;
+    font-size: 30px;
+    font-family: 'Raleway',sans-serif;
+    right: -10px;
+}
+
+  .overlays {
+    position:relative;
+    font-size:65px;
+    font-family: 'Raleway',sans-serif;
+    right: -10px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items:center ;
+    width: 100%;
+    height: 100%; 
+    bottom:10px;
+}
+
+    .overlays h1 {
+        position:relative;
+        font-size:65px;
+        font-family: 'Raleway',sans-serif;
+        right: -10px;
+      }
+    .overlays p{
+        position:relative;
+        font-size: 30px;
+        font-family: 'Raleway',sans-serif;
+        right: -10px;
+    }
+    
+  .big-image2{
+    height: 100vh;
+    margin-left: 0vw;
+    position:relative;
+    background-size:cover;
+    background-position: 10% 50%;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom,rgba(27,23,23,0.48),rgba(210,202,202,0.55)),url(https://c.pxhere.com/photos/79/09/snow_clouds_mountain_norway-489775.jpg!d);
+  }
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
